@@ -138,7 +138,7 @@ namespace LineChart
                             X2 = xPoint,
                             Y2 = this.ActualHeight - yAxisStart,
                             Stroke = Brushes.LightGray,
-                            StrokeThickness = 1,
+                            StrokeThickness = 10,
                             Opacity = 1,
                         };
 
@@ -172,7 +172,7 @@ namespace LineChart
                             X2 = this.ActualWidth - xAxisStart,
                             Y2 = yPoint,
                             Stroke = Brushes.LightGray,
-                            StrokeThickness = 1,
+                            StrokeThickness = 10,
                             Opacity = 1,
                         };
 
@@ -218,7 +218,7 @@ namespace LineChart
                     chartPolyline = new Polyline()
                     {
                         Stroke = new SolidColorBrush(Color.FromRgb(68, 114, 196)),
-                        StrokeThickness = 2,
+                        StrokeThickness = 10,
                     };
                     chartCanvas.Children.Add(chartPolyline);
 
