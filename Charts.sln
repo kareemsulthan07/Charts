@@ -5,7 +5,9 @@ VisualStudioVersion = 16.0.30503.244
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LineChart", "LineChart\LineChart.csproj", "{38907483-6B10-4EF0-90A3-1737563348B5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2DPieChart", "2DPieChart\2DPieChart.csproj", "{73F5EF8A-3B41-4E18-9D98-845D6198D23F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "2DPieChart", "2DPieChart\2DPieChart.csproj", "{73F5EF8A-3B41-4E18-9D98-845D6198D23F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2DColumnChart", "2DColumnChart\2DColumnChart.csproj", "{E5FA618A-0900-4ABE-ADBF-0215E005C9F2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{73F5EF8A-3B41-4E18-9D98-845D6198D23F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{73F5EF8A-3B41-4E18-9D98-845D6198D23F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{73F5EF8A-3B41-4E18-9D98-845D6198D23F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E5FA618A-0900-4ABE-ADBF-0215E005C9F2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E5FA618A-0900-4ABE-ADBF-0215E005C9F2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E5FA618A-0900-4ABE-ADBF-0215E005C9F2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E5FA618A-0900-4ABE-ADBF-0215E005C9F2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
